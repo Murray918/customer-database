@@ -1,9 +1,54 @@
+body{
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+text-align: center;
+}
+p {
+  margin: 0;
+  line-height: 1.4;
+}
 .siteWrap{
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
+
 }
 
 img {
-  width: 250px;
+  height: 250px;
+}
+
+.flexWrap {
+  /*display: flex;*/
+  padding: 20px;
+}
+
+.custWrap {
+flex-basis: 18%;
+text-align: center;
+/*display: flex;*/
+justify-content: center;
+align-items: center;
+
+line-height: 1.4;
+
+
+}
+
+.email {
+
+  color: gray;
+
+}
+.picture{
+
+}
+.name {
+border-bottom: 3px solid #13b15b;
+margin: 5px 60px 10px 60px;
+padding-bottom: 10px;
+text-transform: capitalize;
+}
+.address {
+text-transform: capitalize;
 }
