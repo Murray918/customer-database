@@ -1,0 +1,9 @@
+.siteWrap{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 250px;
+}
